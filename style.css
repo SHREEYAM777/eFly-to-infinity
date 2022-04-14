@@ -1,0 +1,52 @@
+.navbar-brand{
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5em;
+    font-weight:bold;
+    color:whitesmoke !important ;
+    padding-right:1em;
+
+}
+
+.custom-nav .custom-nav-item a{
+    color:aliceblue !important;
+
+}
+
+.custom-nav-item:hover{
+    background-color:rgb(38, 185, 156) ;
+    border:solid rgb(222, 169, 63);
+    border-radius:8px;
+}
+
+.vid-parent{
+    position:relative;
+}
+.remove-vid-marg{
+    margin: 0px;
+    padding:0px;
+}
+video {
+    width:100%;
+    height:100%;
+}
+
+.vid-overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(88, 10, 99);
+    background-color: rgb(203, 111, 215);
+    z-index: 1;
+    opacity: 0.8;
+}
+.vid-content{
+    position:absolute;
+    align-items: center;
+    z-index: 2;
+    bottom:15%;
+    left:1;
+    text-align:center;
+
+}
